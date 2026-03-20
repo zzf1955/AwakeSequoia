@@ -1,0 +1,53 @@
+{
+  "_comment_camera": "Part 1: Camera",
+  "fovDegrees": 40.0,
+  "pitchDegrees": 60.0,
+  "cameraHeight": 0.0,
+  "nearPlane": 0.001,
+  "farPlane": 200.0,
+
+  "_comment_color": "Part 2: Color tuning",
+  "gradientName": "solar noon",
+  "dayProgress": 0.5,
+  "dayProgressSpeed": 0.0,
+  "dimmingGradientAmount": 0.0,
+  "gradientUVOffset": 0.0,
+  "gradientUVScale": 1,
+  "gradientWashout": 0.0,
+
+  "_comment_speed": "Part 3: Speed (percentage of one block per second)",
+  "speedPercent": 1,
+
+  "_comment_terrain": "Part 4: Terrain (block size & tree density)",
+  "seed": 42,
+  "blockWidth": 8.0,
+  "blockLength": 16.0,
+  "treeDensity": 3,
+
+  "_comment_path": "Part 5: Path planning (Voronoi + Dijkstra + B-spline)",
+  "minClearance": 0.2,
+  "corridorAlpha": 0,
+  "startClearHalfWidth": 0.1,
+  "startClearDepth": 0.1,
+
+  "_comment_sway": "Part 5b: Camera sway (layered sine waves)",
+  "swayAmplitude": 3.0,
+  "swaySpeed": 1.0,
+
+  "_comment_frontier": "Part 6: Frontier (dynamic block loading)",
+  "lookaheadBlocks": 3,
+  "trailBlocks": 0,
+
+  "_comment_output": "Part 7: Output",
+  "width": 720,
+  "height": 540,
+  "fps": 10,
+  "duration": 50.0,
+  "outputDir": "output",
+
+  "_comment_debug": "Part 8: Debug mode (--debug flag)",
+  "debugFrameCount_comment": "透视帧数量",
+  "debugFrameCount": 5,
+  "debugTopDownBlocks_comment": "俯视图显示的 Block 数量（会生成 1 到 N 的累积俯视图）",
+  "debugTopDownBlocks": 3
+}

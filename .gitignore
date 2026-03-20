@@ -1,0 +1,31 @@
+# Swift build artifacts
+.build/
+*.o
+*.d
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+.swiftpm/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Output / generated files
+*.mov
+*.mp4
+*.png
+*.dmg
+*.log
+output/
+AwakeSequoia.app/
+
+# Internal dev files
+docs/
+bundle_app.sh
+test_engine.sh
+
+# Editor
+.cursor/

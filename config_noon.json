@@ -1,0 +1,14 @@
+{
+  "width": 3840,
+  "height": 2160,
+  "fps": 30,
+  "fovDegrees": 60.0,
+  "dimmingGradientAmount": 0.0,
+  "cameraHeight": 0.5,
+  "pitchDegrees": 60.0,
+  "nearPlane": 0.1,
+  "farPlane": 200.0,
+  "dayProgress": 0.5,
+  "gradientName": "solar noon",
+  "speedPercent": 50
+}
